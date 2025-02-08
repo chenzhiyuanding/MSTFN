@@ -1,0 +1,15 @@
+
+train: /mnt/sda/chenzhiyuan/labels_4action/train_4action/
+train_img: /mnt/sda/chenzhiyuan/frames
+val: /mnt/sda/chenzhiyuan/labels_4action/test_4action/
+val_img:  /mnt/sda/chenzhiyuan/frames
+
+
+
+# number of classes
+nc: 1
+action_nc: 4
+
+# class names
+names: ['Monkey']
+action_names: ['Sitting','Walking','Climbing','Attaching']
